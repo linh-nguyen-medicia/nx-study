@@ -1,0 +1,6 @@
+export enum EnvironmentVariableKeys {
+  JWT__SIGNING_KEY = "JWT__SIGNING_KEY",
+  JWT__ISSUER = "JWT__ISSUER",
+  JWT__AUDIENCE = "JWT__AUDIENCE",
+  JWT__IGNORE_EXPIRATION = "JWT__IGNORE_EXPIRATION",
+}
